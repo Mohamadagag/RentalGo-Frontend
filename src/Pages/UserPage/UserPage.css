@@ -1,0 +1,22 @@
+.user-page-container {
+  display: flex;
+  background-color: #f5f7fb;
+}
+
+.user-page-table {
+  margin: 0 auto;
+  width: 900px;
+  padding-top: 50px;
+}
+
+.thumbnail {
+  width: 100px;
+}
+
+.popup {
+  width: 100%;
+}
+
+.user-page-popup {
+  margin-bottom: 25px;
+}

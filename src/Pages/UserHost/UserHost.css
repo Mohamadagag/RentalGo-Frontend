@@ -1,0 +1,73 @@
+.user-page-right {
+  margin: 40px auto 0 auto;
+}
+
+.user-page-right div h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-form {
+  width: 480px;
+}
+
+.input-type {
+  width: 47%;
+}
+
+.input-description {
+  width: 100%;
+}
+
+.name-type {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plate-price {
+  display: flex;
+  align-items: center;
+}
+
+.plate-price div:first-child {
+  padding-top: 11px;
+}
+
+.pick-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.images {
+  height: 55px;
+}
+
+.pick-image {
+  margin-top: 40px;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.add-button button {
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #1976d3;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputt {
+  width: 47%;
+}
+
+.image-upload {
+  width: 47%;
+}

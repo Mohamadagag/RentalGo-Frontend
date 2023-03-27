@@ -1,0 +1,16 @@
+.page-link {
+  padding: 6px 10px;
+  border-radius: 15px;
+  background-color: #5ea1ff;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.paginate {
+  background-color: transparent;
+}
+
+.paginate nav {
+  justify-content: center;
+}

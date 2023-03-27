@@ -1,0 +1,139 @@
+.home-conatianer {
+  padding: 0 64px;
+  background-color: #f5f7fb;
+}
+
+.intro {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.last-added-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.left div h1 {
+  font-size: 45px;
+}
+
+.left div:last-child {
+  display: flex;
+  padding-top: 10px;
+}
+
+.left div:last-child p {
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size: 28px;
+}
+
+.left div span {
+  color: #5ea1ff;
+  font-size: 28px;
+}
+
+.right img {
+  max-width: 500px;
+}
+
+.searchbar {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.searchbar input {
+  border: 1px solid #5ea1ff;
+  padding: 9px 0;
+  width: 230px;
+}
+
+.searchbar input:active {
+  border: 1px solid red;
+}
+
+.searchbar button {
+  border: none;
+  background-color: #5ea1ff;
+  padding: 10px 35px;
+  color: #fff;
+}
+
+.searchbar button {
+  cursor: pointer;
+}
+
+.browse-text {
+  padding-left: 20px;
+  padding-top: 70px;
+  font-weight: 500;
+}
+
+.car-types-text {
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .left div h1 {
+    font-size: 35px;
+  }
+
+  .left div span {
+    font-size: 20px;
+  }
+
+  .left div:last-child p {
+    font-size: 20px;
+  }
+
+  .left {
+    margin-right: 20px;
+  }
+
+  .home-conatianer {
+    padding-top: 40px;
+  }
+
+  .right img {
+    max-width: 400px;
+  }
+
+  .intro {
+    padding-top: 30px;
+  }
+
+  .browse-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .intro {
+    display: none;
+  }
+
+  .home-conatianer {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .last-added-section {
+    justify-content: center;
+  }
+
+  .home-conatianer {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .searchbar input {
+    width: 150px;
+  }
+}

@@ -1,0 +1,55 @@
+.details-container {
+  display: flex;
+  background-color: #f5f7fb;
+  padding: 25px 50px 60px 50px;
+}
+
+.details-name {
+  padding-bottom: 30px;
+}
+
+.details-swiper {
+  width: 700px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-top: 30px;
+}
+
+.details-left-side {
+  padding-right: 100px;
+}
+
+.details-left-side div:first-child {
+  margin-bottom: 10px;
+}
+
+.details-right-side {
+  padding-top: 85px;
+}
+
+.details-right-side-container div {
+  padding-bottom: 30px;
+}
+
+.details-right-side div h4 {
+  padding-bottom: 10px;
+}
+
+.additional-info {
+  display: flex;
+}
+
+.additional-info div {
+  margin-right: 30px;
+}
+
+.sum {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,185 @@
+.howitworks-container {
+  background-color: #f5f7fb;
+  padding: 0 64px 60px 64px;
+}
+
+.howitworks-container .title h1 {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.flex-container,
+.step {
+  display: flex;
+}
+
+.steps {
+  padding-left: 80px;
+}
+
+.step1 {
+  margin-top: 60px;
+}
+
+.number {
+  border: 1px solid;
+  border-radius: 16px;
+  padding: 5px 10px;
+}
+
+.text {
+  padding-left: 20px;
+}
+
+.info {
+  padding-top: 15px;
+}
+
+.options {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.options h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.options h3 {
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+.lines {
+  text-align: center;
+  margin-top: 160px;
+}
+
+.options p {
+  padding-top: 30px;
+  font-size: 22px;
+  max-width: 50ch;
+  display: inline-block;
+}
+
+.browseByMake {
+  margin-top: 70px;
+}
+
+.browseByMake-p {
+  font-size: 21px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-left: 75px;
+}
+
+.types-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.type-card {
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.type-card:hover {
+  transform: scale(1.05);
+  transition: 0.15s ease-in-out;
+}
+
+  .type-card p {
+  text-align: center;
+  margin: 9px 0;
+}
+
+.suv {
+  height: 150px;
+  object-fit: fill;
+  width: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .handOver img {
+    width: 400px;
+  }
+
+  .step1 {
+    margin-top: 25px;
+  }
+
+  .type-card {
+    margin-bottom: 10px;
+  }
+
+  .browseByMake-p {
+    margin-left: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .handOver {
+    display: flex;
+    justify-content: center;
+  }
+
+  .handOver img {
+    padding-bottom: 20px;
+    width: 70%;
+  }
+
+  .options {
+    padding: 90px 0 30px 0;
+  }
+
+  .steps {
+    max-width: 63ch;
+  }
+
+  .lines {
+    margin-top: 115px;
+  }
+
+  .browseByMake-p {
+    margin-left: 110px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .howitworks-container {
+    padding: 0 5px;
+  }
+
+  .handOver img {
+    width: 100%;
+  }
+
+  .steps {
+    padding-left: 0;
+  }
+
+  .options h1 {
+    font-size: 35px;
+  }
+
+  .options h3 {
+    font-size: 18px;
+  }
+
+  .options p {
+    font-size: 15px;
+  }
+
+  .browseByMake-p {
+    margin-bottom: 40px;
+  }
+}

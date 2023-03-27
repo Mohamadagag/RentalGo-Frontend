@@ -1,0 +1,50 @@
+.user-left-side {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 15px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-icon-container {
+  text-align: center;
+}
+
+.user-icon {
+  font-size: 50px;
+  color: #7cc5ff;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.links a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #a4a3a3;
+}
+
+.links a:last-child {
+  margin-bottom: 0;
+}
+
+.links a:hover {
+  color: #000;
+}

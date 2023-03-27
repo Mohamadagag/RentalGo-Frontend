@@ -1,0 +1,58 @@
+.admin-navbar {
+  display: inline-block;
+  width: 15%;
+  position: absolute;
+}
+
+.admin-left-side {
+  padding: 5px 10px;
+  height: 600px;
+  background-color: #5fa0fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.admin-logo {
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+}
+
+.admin-name {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.FuckingAdmin,
+.FuckingAdminButton {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FuckingAdmin a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.FuckingAdmin a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.FuckingAdminButton button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+.admin-nav-list {
+  padding-top: 10px;
+}
